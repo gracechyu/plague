@@ -192,7 +192,6 @@ public class GameEasy extends JPanel implements MouseListener, ActionListener//p
 		circles[i].value=circles[i].value+1;
 	}
 	   }
-	 //  System.out.println("incgggggggggggggggggggggggggggr");
 
 	   //red source circle
 	   if(timerCounter==50){
@@ -296,7 +295,7 @@ public class GameEasy extends JPanel implements MouseListener, ActionListener//p
    			return false;
    		}
    
-   /*
+   
             public void redCircle(){
 				timer.setActionCommand(spreadred,200,1000);//red source circle spreads its points every 10 seconds
 				timer.setActionCommand(spreadred,100,300);//other red circle spreads its points every 3 seconds
@@ -315,7 +314,7 @@ public class GameEasy extends JPanel implements MouseListener, ActionListener//p
 				if(c.value<0) //if value is negative, circle is red
                 //color changes to red, computer can manipulate this circle now to spread
                 blueCircle= new Circle(x,y,c.value,80,80,"blue");
-			}*/
+			}
 			public String checkWinner(){
 				int redcount = 0;int bluecount = 0;
 			
